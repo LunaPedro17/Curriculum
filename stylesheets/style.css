@@ -1,20 +1,39 @@
+@import 
+url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+
 * {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
-h1 {
-    color: rgb(130, 39, 29);
-    font-family: Georgia,  serif;
+
+.subtitulo{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1,h2,h3{
+    font-family: 'Montserrat';
+    color:#001858;
+}
+
+
+p{
+    color:#172c66;
+
+}
+section {
+    box-sizing: border-box;
+    margin: 20px;
+    border: 1px solid black;
+    padding: 10px;
     }
-h2{
-    color: #3f2607;
-}
- 
-
-h3{
-    color: rgb(12, 12, 72);
-}
-
 
 body{
-    background-color: rgba(225, 159, 125, 0.674);
+    background-color:#fef6e4;
 }
+
+img {
+    width: 15%;
+    max-height: 15%; /* Esto mantiene la proporción original de la imagen */
+    max-width: 15%; /* Opcional, asegura que la imagen no se estire más allá de su tamaño original */
+    display: block; /* Asegura que la imagen no cause problemas de formato en línea */
+    margin: 1 auto; /* Centra la imagen horizontalmente */
+    
+  }
