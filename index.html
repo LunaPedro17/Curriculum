@@ -17,7 +17,7 @@
         <h1>Currículum Vitae</h1>
     </header>
     <nav>
-        <img src="C:\Users\PEDRO L\Desktop\DAWM\Curriculum\Curriculum\stylesheets\WhatsApp Image 2023-10-04 at 17.49.46 (1).jpegg"> </img>
+        <img src="C:\Users\PEDRO L\Desktop\DAWM\Curriculum\Curriculum\stylesheets\WhatsApp Image 2023-10-04 at 17.49.46 (1).jpeg"> </img>
         <ul>
             <li><a href="#">Inicio</a></li>
             <li><a href="#">Educación</a></li>
@@ -26,7 +26,8 @@
             <li><a href="#">Contacto</a></li>
         </ul>
     </nav>
-    <section id="informacion-personal">
+    <div class="columna1">
+    <section id="informacion-personal" class="info">
         <h2 class="subtitulos">Información personal</h2>
         <p>
             Nombre: <span>Pedro Abraham Luna Almeida</span>
@@ -41,7 +42,7 @@
             Correo electrónico: <span>pedrolunaalmeida2003@gmail.com</span>
         </p>
     </section>
-    <section id="educacion">
+    <section id="educacion" class="edu">
         <h2 class="educacion">Educación</h2>
         <p>
             Grado: <span>Ingeniería en Ciencias de la Computación</span>
@@ -62,8 +63,10 @@
             Fechas: <span>2014 - 2020</span>
         </p>
     </section>
+</div>
 
-    <div class="section">
+<div class="columnaCentral">
+    <section id="experiencia" class="exp">
         <h2>Experiencia laboral</h2>
         <ul>
         <P>
@@ -74,34 +77,37 @@
         Creacion de diseño de plataforma que comparte información a estudiantes de ESPOL.
         Mis responsabilidades incluyeron el llevar a cabo reuniones con reresentantes de la ESPOL, investigaciones y realización de prototipos que 
         ayuden  a satisfacer las necesidades.
-        </p>
+        </p>       
     </ul>
-        </div>
+    </section>
+</div>
 
-
-    <section id="ubicacion">
+<div class="columna3">
+    <section id="ubicacion"  class="ubi">
         <h2>Ubicación</h2>
         <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d2370.6929894512814!2d-79.96678053831162!3d-2.1481454781907345!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sgoogle%20maps!5e0!3m2!1ses!2sec!4v1697036763287!5m2!1ses!2sec" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         <style>
-            /* Establece un tamaño fijo para el contenedor del mapa */
+           
             #map {
-              height: 400px; /* Ajusta la altura según tus necesidades */
-              width: 100%;   /* El ancho del mapa ocupará el 100% del contenedor */
+              height: 400px; 
+              width: 100%;   
             }
           </style>
     </section>
-    <section id="habilidades">
+</div>
+<div class="columnaCentral">
+    <section id="habilidades" class="habilidad">
         <h2>Habilidades</h2>
         <ul>
             <li>Lenguajes de programación: Python, JavaScript, Java, HTML</li>
             <li>Aplicaciones de diseño: Proteus, AutoCad</li>
             <li>Bases de datos: MySQL</li>
-            <li>Herramientas de desarrollo: Visual Studio Code, Git, NethBeans</li>
-            <li>Idiomas: Inglés, Portugués</li>
+            <li>Herramientas de desarrollo: Visual Studio Code, GitHub, NethBeans</li>
+            <li>Idiomas: Inglés b1</li>
 
         </ul>
     </section>
-
+</div>
 
 
     <footer>
@@ -120,7 +126,7 @@
                     <input type="number" name="número" id="número" required/>
                   </div>
                 <div class="form-example">
-                  <input type="submit" value="Muchas Gracias" />
+                  <input type="submit" value="Muchas Gracias" class="boton" />
                 </div>
               </form>
         <p>Copyright © 2023 Pedro Luna</p>

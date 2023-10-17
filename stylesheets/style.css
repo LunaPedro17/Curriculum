@@ -8,25 +8,34 @@ url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 .subtitulo{
     font-family: 'Times New Roman', Times, serif;
 }
-h1,h2,h3{
+h2,h3{
     font-family: 'Montserrat';
-    color:#001858;
+    color: #00473e;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Montserrat';
+    color:#00473e;
+    font-weight: bold;
+    text-align: center;
+}
+p,a,li{
+    color:#475d5b;
 }
 
-
-p{
-    color:#172c66;
-
+section p, li{
+    color: #271c19;
 }
 section {
     box-sizing: border-box;
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
+    background-color: #fffffe;
     }
 
 body{
-    background-color:#fef6e4;
+    background-color:#f2f7f5;
 }
 
 img {
@@ -35,5 +44,17 @@ img {
     max-width: 15%; /* Opcional, asegura que la imagen no se estire más allá de su tamaño original */
     display: block; /* Asegura que la imagen no cause problemas de formato en línea */
     margin: 1 auto; /* Centra la imagen horizontalmente */
-    
+    border: #55423d;
   }
+
+.boton{
+    background-color: #89f1ec;
+    color: #00473e;
+    border: black;
+}
+
+form{
+    background-color: #f2f7f5;
+}
+
+
