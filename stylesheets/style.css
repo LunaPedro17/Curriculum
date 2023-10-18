@@ -78,10 +78,3 @@ form {
         margin: 0 auto; /* Centra horizontalmente la imagen */
     }
 }
-.video iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-}
