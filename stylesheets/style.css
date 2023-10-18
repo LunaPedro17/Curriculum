@@ -71,10 +71,4 @@ form {
     background-color: #f2f7f5;
 }
 
-@media (max-width: 768px) {
-    .imagen, .video, .ubi{
-        width: 50%;
-        max-width: 100%;
-        margin: 0 auto; /* Centra horizontalmente la imagen */
-    }
-}
+
