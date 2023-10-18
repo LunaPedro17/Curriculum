@@ -1,61 +1,87 @@
-@import 
-url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital@1&display=swap');
 
 * {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-.subtitulo{
+.subtitulo {
     font-family: 'Times New Roman', Times, serif;
 }
-h2,h3{
+
+h2,
+h3 {
     font-family: 'Montserrat';
     color: #00473e;
     font-weight: bold;
 }
-h1{
+
+h1 {
     font-family: 'Montserrat';
-    color:#00473e;
+    color: #00473e;
     font-weight: bold;
     text-align: center;
 }
-p,a,li{
-    color:#475d5b;
+
+p,
+a,
+li {
+    color: #475d5b;
 }
 
-section p, li{
+section p,li {
     color: #271c19;
 }
+
 section {
     box-sizing: border-box;
     margin: 20px;
     border: 1px solid black;
     padding: 10px;
     background-color: #fffffe;
-    }
+}
 
-body{
-    background-color:#f2f7f5;
+body {
+    background-color: #f2f7f5;
 }
 
 .imagen {
     width: 15%;
-    max-height: 15%; /* Esto mantiene la proporción original de la imagen */
-    max-width: 15%; /* Opcional, asegura que la imagen no se estire más allá de su tamaño original */
-    display: block; /* Asegura que la imagen no cause problemas de formato en línea */
-    margin: 1 auto; /* Centra la imagen horizontalmente */
+    max-height: 15%;
+    /* Esto mantiene la proporción original de la imagen */
+    max-width: 15%;
+    /* Opcional, asegura que la imagen no se estire más allá de su tamaño original */
+    display: block;
+    /* Asegura que la imagen no cause problemas de formato en línea */
+    margin: 1 auto;
+    /* Centra la imagen horizontalmente */
     border: #55423d;
     border-radius: 30%;
-  }
+}
 
-.boton{
+.boton {
     background-color: #89f1ec;
     color: #00473e;
     border: black;
+    font-size: 20px;
+    padding: 10px 10px;
+    border: 2px solid #271c19;
 }
 
-form{
+form {
     background-color: #f2f7f5;
 }
 
-
+@media (max-width: 768px) {
+    .imagen, .video, .ubi{
+        width: 50%;
+        max-width: 100%;
+        margin: 0 auto; /* Centra horizontalmente la imagen */
+    }
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
