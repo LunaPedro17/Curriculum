@@ -38,13 +38,14 @@ body{
     background-color:#f2f7f5;
 }
 
-img {
+.imagen {
     width: 15%;
     max-height: 15%; /* Esto mantiene la proporción original de la imagen */
     max-width: 15%; /* Opcional, asegura que la imagen no se estire más allá de su tamaño original */
     display: block; /* Asegura que la imagen no cause problemas de formato en línea */
     margin: 1 auto; /* Centra la imagen horizontalmente */
     border: #55423d;
+    border-radius: 30%;
   }
 
 .boton{
