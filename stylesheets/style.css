@@ -26,10 +26,9 @@ p,a,li{
 section p, li{
     color: #271c19;
 }
-section {
+section, div {
     box-sizing: border-box;
     margin: 20px;
-    border: 1px solid black;
     padding: 10px;
     background-color: #f2f7f5;
     }
@@ -56,7 +55,7 @@ body{
     top: 1;
 }
 figure img {
-    width: 10em; 
+    width: 15em; 
     height: 15em; 
   }
 
@@ -76,18 +75,15 @@ main{
 }
 .left-section{
     flex-grow: 0.2;
-    background-color: var(--color-secondary);
 }
 .right-section{
     flex-grow: 0.5;
-    background-color: var(--color-soft);
 }
-
-
 
 form{
     background-color: #f2f7f5;
 }
+
 section {
     display: flex;
     flex-direction: column;
@@ -101,18 +97,22 @@ section {
     flex-grow: 0.2;
     background-color: #00473e;
 }
+
 .derecha{
     flex-grow: 1;
     background-color: #00473e;
 }
+
 nav {
     padding: 1em;
     display: flex;
     justify-content: flex-end;
 }
+
 .links{
     list-style: none;
 }
+
 .links li {
     display: inline-block;
     padding: 1em 2em;
@@ -121,10 +121,12 @@ nav {
     color: #00473e;
     border: 2px solid #00473e; /* Ancho del borde y color */
 }
+
 .links li a{
     text-decoration: none;
     border: 2px #00473e;
 }
+
 header{
     display: flex;
     padding: 0em 20em;
@@ -145,19 +147,40 @@ header div {
     }
 }
 
-/*
-.video{
-    position: relative;
-    padding-bottom: 56%;
-    padding-top: 0;
-    height: 0;
-}
-.video iframe{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 50%;
+#proyectos {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 20px;
 }
 
-*/
+#proyectos h2{
+    text-align: center;
+}
+
+.Proyecto1 img, .Proyecto2 img {
+    max-width: 100%; /* Ajustar la imagen al tamaño máximo del contenedor */
+    height: auto; /* Ajustar la altura automáticamente */
+}
+
+.Proyecto2 , .Proyecto1{
+
+    text-align: center;
+    max-width: 45%; /* Tamaño máximo de las imágenes (48% para dejar espacio entre ellas) */
+}
+
+
+.Proyecto1 h3,.Proyecto2 h3 {
+    margin: 10px 0;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+.Proyecto1, .Proyecto2 {
+    box-sizing: border-box;
+    margin: 10px;
+    border: 1px solid black;
+    padding: 10px;
+    background-color: #f2f7f5;
+}
